@@ -67,5 +67,5 @@ Gratitude goes to the authors and contributors of these resources for their inva
 
 Recorded on iPhone 12 Mini
 
-<img src="https://imgur.com/2MNUA0t" width="300">
+<img src="https://imgur.com/o9Al8pm" width="300">
 
