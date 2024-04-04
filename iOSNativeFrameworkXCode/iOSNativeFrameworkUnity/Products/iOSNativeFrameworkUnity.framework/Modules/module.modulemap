@@ -1,0 +1,6 @@
+framework module iOSNativeFrameworkUnity {
+  umbrella header "iOSNativeFrameworkUnity.h"
+  export *
+
+  module * { export * }
+}

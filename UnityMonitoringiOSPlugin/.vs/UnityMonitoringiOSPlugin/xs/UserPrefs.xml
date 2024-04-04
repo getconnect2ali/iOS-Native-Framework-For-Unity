@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{79E3A401-423E-4030-D799-0B3AC37ACC02}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/iOS/iOSDeviceTracker.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PluginController.cs" Line="100" Column="32" />
+      <File FileName="Assets/Plugins/iOS/Statistics.cs" />
+      <File FileName="Assets/Plugins/iOS/iOSDeviceTracker.cs" Line="29" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnityMonitoringiOSPlugin" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8ac109fb-a3b9-4104-ac5c-29df3e2534a9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

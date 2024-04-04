@@ -1,0 +1,239 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iOSNativeFrameworkUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "iOSNativeFrameworkUnity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceMonitor",
+        "printedName": "DeviceMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceMonitor",
+                "printedName": "iOSNativeFrameworkUnity.DeviceMonitor",
+                "usr": "s:23iOSNativeFrameworkUnity13DeviceMonitorC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23iOSNativeFrameworkUnity13DeviceMonitorC8instanceACvpZ",
+            "mangledName": "$s23iOSNativeFrameworkUnity13DeviceMonitorC8instanceACvpZ",
+            "moduleName": "iOSNativeFrameworkUnity",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceMonitor",
+                    "printedName": "iOSNativeFrameworkUnity.DeviceMonitor",
+                    "usr": "s:23iOSNativeFrameworkUnity13DeviceMonitorC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23iOSNativeFrameworkUnity13DeviceMonitorC8instanceACvgZ",
+                "mangledName": "$s23iOSNativeFrameworkUnity13DeviceMonitorC8instanceACvgZ",
+                "moduleName": "iOSNativeFrameworkUnity",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23iOSNativeFrameworkUnity13DeviceMonitorC",
+        "mangledName": "$s23iOSNativeFrameworkUnity13DeviceMonitorC",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Function",
+        "name": "startTrackingWithInterval",
+        "printedName": "startTrackingWithInterval(handler:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.UnsafeMutablePointer<Swift.Int8>) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:Sp"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)startTrackingWithIntervalWithHandler:",
+        "mangledName": "$s23iOSNativeFrameworkUnity25startTrackingWithInterval7handleryySpys4Int8VGXC_tF",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopTrackingWithInterval",
+        "printedName": "stopTrackingWithInterval()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)stopTrackingWithInterval",
+        "mangledName": "$s23iOSNativeFrameworkUnity24stopTrackingWithIntervalyyF",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "startTracking",
+        "printedName": "startTracking()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)startTracking",
+        "mangledName": "$s23iOSNativeFrameworkUnity13startTrackingyyF",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopTracking",
+        "printedName": "stopTracking()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:Sp"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)stopTracking",
+        "mangledName": "$s23iOSNativeFrameworkUnity12stopTrackingSpys4Int8VGyF",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSNativeFrameworkUnity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alihussain\/Documents\/Ali\/iOSNativeFrameworkUnity\/iOSNativeFrameworkUnity\/iOSNativeFrameworkUnity\/iOSDeviceTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 737,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

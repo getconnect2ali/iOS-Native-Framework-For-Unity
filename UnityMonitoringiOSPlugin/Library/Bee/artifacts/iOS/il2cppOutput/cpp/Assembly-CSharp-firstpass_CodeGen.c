@@ -1,0 +1,112 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+extern const RuntimeMethod* iOSDeviceTracker_BrdigeToNative_OnStatReceived_m2C3D9B40FF3756EFED70489777B30080801BCFFE_RuntimeMethod_var;
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549 (void);
+extern void iOSDeviceTracker_get_Instance_m70EDF5C1DFD72348F49D95E7450C9EECDF5C2C1C (void);
+extern void iOSDeviceTracker_startTracking_mBB348E14DBAA87EEF76F7C67C93E58579A1EE8FD (void);
+extern void iOSDeviceTracker_stopTracking_m5AC8CC3D49C5AB8E5931594B97A8FDAFD9573376 (void);
+extern void iOSDeviceTracker_BrdigeToNative_OnStatReceived_m2C3D9B40FF3756EFED70489777B30080801BCFFE (void);
+extern void iOSDeviceTracker_startTrackingWithInterval_m66C3153D8452F17852107718FF59659257EF94E3 (void);
+extern void iOSDeviceTracker_stopTrackingWithInterval_mB458D2FAA6FC5DD4CCAD6892CDF012A7F6A87129 (void);
+extern void iOSDeviceTracker_StartTracking_m0E72B64382C03B981261FBB533CBA316895E68D6 (void);
+extern void iOSDeviceTracker_StopTracking_m74A7D867D7C7EE7CEB0E1A90D977855E6024CAC3 (void);
+extern void iOSDeviceTracker_StartTrackingWithInterval_m33E5BBEA7C4B542E32A6441CC8E91B7E3D322831 (void);
+extern void iOSDeviceTracker_StopTrackingWithInterval_m96F11BB8A46FBDC0FCB853D12E887FEFB5F7827F (void);
+extern void iOSDeviceTracker_IsNowTracking_m1925BCFC7DCB3B526B9782B548A9E347EF508CB7 (void);
+extern void iOSDeviceTracker__ctor_m38C4B89E3E58A92EA9C7B7868158B9623C35E45B (void);
+extern void Native_OnStatReceived__ctor_m3256476D887C890114A3813EBC80DACBE3C68F2E (void);
+extern void Native_OnStatReceived_Invoke_mB1414A36B573907393CE7D7087FE05DD2B6C6465 (void);
+extern void Native_OnStatReceived_BeginInvoke_mBA31357D6156BDB7652C85A04A26FD713629FCAE (void);
+extern void Native_OnStatReceived_EndInvoke_mB3FEABAE6399DD64389E0C566CDEB017F6B327EB (void);
+extern void Stat__ctor_mB05E0B15EA4FC6CEA04BAD28B85E53D561A61083 (void);
+extern void CPUUsage__ctor_m0A43E280CCFCD8638E3A4FC2EBF2EF826CB64B0B (void);
+extern void RamUsage__ctor_mC25F76A116985677270804A5F4D324C590C3DAB1 (void);
+extern void GPUUsage__ctor_mF177DEEE56B4C415B27E984888935C02C8209016 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549,
+	iOSDeviceTracker_get_Instance_m70EDF5C1DFD72348F49D95E7450C9EECDF5C2C1C,
+	iOSDeviceTracker_startTracking_mBB348E14DBAA87EEF76F7C67C93E58579A1EE8FD,
+	iOSDeviceTracker_stopTracking_m5AC8CC3D49C5AB8E5931594B97A8FDAFD9573376,
+	iOSDeviceTracker_BrdigeToNative_OnStatReceived_m2C3D9B40FF3756EFED70489777B30080801BCFFE,
+	iOSDeviceTracker_startTrackingWithInterval_m66C3153D8452F17852107718FF59659257EF94E3,
+	iOSDeviceTracker_stopTrackingWithInterval_mB458D2FAA6FC5DD4CCAD6892CDF012A7F6A87129,
+	iOSDeviceTracker_StartTracking_m0E72B64382C03B981261FBB533CBA316895E68D6,
+	iOSDeviceTracker_StopTracking_m74A7D867D7C7EE7CEB0E1A90D977855E6024CAC3,
+	iOSDeviceTracker_StartTrackingWithInterval_m33E5BBEA7C4B542E32A6441CC8E91B7E3D322831,
+	iOSDeviceTracker_StopTrackingWithInterval_m96F11BB8A46FBDC0FCB853D12E887FEFB5F7827F,
+	iOSDeviceTracker_IsNowTracking_m1925BCFC7DCB3B526B9782B548A9E347EF508CB7,
+	iOSDeviceTracker__ctor_m38C4B89E3E58A92EA9C7B7868158B9623C35E45B,
+	Native_OnStatReceived__ctor_m3256476D887C890114A3813EBC80DACBE3C68F2E,
+	Native_OnStatReceived_Invoke_mB1414A36B573907393CE7D7087FE05DD2B6C6465,
+	Native_OnStatReceived_BeginInvoke_mBA31357D6156BDB7652C85A04A26FD713629FCAE,
+	Native_OnStatReceived_EndInvoke_mB3FEABAE6399DD64389E0C566CDEB017F6B327EB,
+	Stat__ctor_mB05E0B15EA4FC6CEA04BAD28B85E53D561A61083,
+	CPUUsage__ctor_m0A43E280CCFCD8638E3A4FC2EBF2EF826CB64B0B,
+	RamUsage__ctor_mC25F76A116985677270804A5F4D324C590C3DAB1,
+	GPUUsage__ctor_mF177DEEE56B4C415B27E984888935C02C8209016,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	6275,
+	4380,
+	6240,
+	6270,
+	6240,
+	6148,
+	6148,
+	6270,
+	4206,
+	4281,
+	2522,
+	4380,
+	4206,
+	4380,
+	1913,
+	3564,
+	845,
+	3564,
+	4380,
+	4380,
+	4380,
+	4380,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
+{
+	{ 0x06000006, 2,  (void**)&iOSDeviceTracker_BrdigeToNative_OnStatReceived_m2C3D9B40FF3756EFED70489777B30080801BCFFE_RuntimeMethod_var, 0 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
+{
+	"Assembly-CSharp-firstpass.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	1,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

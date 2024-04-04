@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iOSNativeFrameworkUnity
+import Foundation
+import Metal
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import iOSNativeFrameworkUnity
+public typealias onUpdateStatHandler = @convention(c) (Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.Void
+@_hasMissingDesignatedInitializers public class DeviceMonitor {
+  public static let instance: iOSNativeFrameworkUnity.DeviceMonitor
+  @objc deinit
+}
+@_cdecl("startTrackingWithInterval")
+public func startTrackingWithInterval(handler: @convention(c) (Swift.UnsafeMutablePointer<Swift.CChar>) -> Swift.Void)
+@_cdecl("stopTrackingWithInterval")
+public func stopTrackingWithInterval()
+@_cdecl("startTracking")
+public func startTracking()
+@_cdecl("stopTracking")
+public func stopTracking() -> Swift.UnsafeMutablePointer<Swift.CChar>
