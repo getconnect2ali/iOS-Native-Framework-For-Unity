@@ -62,3 +62,10 @@ This library was developed with insights and guidance from various repositories,
 
 Gratitude goes to the authors and contributors of these resources for their invaluable insights and examples that greatly contributed to the development of this library.
 
+
+# Demo Video
+
+Recorded on iPhone 12 Mini
+
+<img src="https://imgur.com/2MNUA0t" width="300">
+
